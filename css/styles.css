@@ -1,0 +1,55 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+.list{
+    list-style-type: none;
+}
+
+.heder-logo-blue {
+ color: var(--iris, #4D5AE5);
+ font-family: Raleway;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 800;
+ line-height: 1.16; /* 116.667% */
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+}
+
+.heder-logo-black {
+    color: var(--navyblue, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16; /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.header-item {
+color: var(--navyblue, #2E2F42);
+/* Body Medium */
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5/* 150% */
+letter-spacing: 0.02em;
+}
+
+.address-item {
+color: var(--slate, #434455);
+
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+
+/*--------------------HERO-------------------*/
+
+.hero-title {
+ background: var(--navyblue, #2E2F42);
+}
