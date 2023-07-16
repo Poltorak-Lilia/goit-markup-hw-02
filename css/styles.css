@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  background: #fff;
 }
 
 .link {
@@ -15,7 +16,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -25,19 +26,28 @@ body {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .header-item {
   color: var(--navyblue, #2e2f42);
-  /* Body Medium */
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5 /* 150% */ letter-spacing 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.address-item {
+.header-link {
+  color: var(--navyblue, #2e2f42);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-link {
   color: var(--slate, #434455);
   /* Body */
   font-family: Roboto;
@@ -101,6 +111,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.team {
+  background: var(--cloud, #f4f4fd);
+}
+
 .team-title {
   color: var(--navyblue, #2e2f42);
   font-size: 36px;
@@ -110,6 +124,7 @@ body {
   text-transform: capitalize;
 }
 .team-name {
+  background: var(--white, #fff);
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -117,6 +132,7 @@ body {
   letter-spacing: 0.2em;
 }
 .team-text {
+  background: var(--white, #fff);
   color: var(--slate, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -127,27 +143,21 @@ body {
   background: var(--navyblue, #2e2f42);
 }
 .footer-logo-blue {
-  display: flex;
-  width: 44px;
-  height: 21px;
-  flex-direction: column;
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
+  font-style: normal;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-logo-black {
-  display: flex;
-  width: 71px;
-  height: 21px;
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
