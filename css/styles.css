@@ -17,7 +17,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -183,30 +183,3 @@ body {
   letter-spacing: 0.02em;
 }
 /*-------Portfolio------*/
-
-.btn-link-link {
-  color: var(--white, #fff);
-  background: var(--ocean, #404bbf);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-.btn-link {
-  color: var(--iris, #4d5ae5);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-.btn-link :hover,
-.btn-link :focus {
-  color: #ffffff;
-  background: var(--ocean, #404bbf);
-}
