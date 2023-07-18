@@ -11,9 +11,25 @@ body {
 .list {
   list-style-type: none;
 }
+
+
+
 :root {
     --
 }
+
+.heder-logo-blue {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+
 .btn-link-link {
   color: var(--white, #fff);
   background: var(--ocean, #404bbf);
