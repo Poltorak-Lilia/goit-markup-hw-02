@@ -9,6 +9,8 @@
   --team-item-bg: #fff;
   --logo-footer-part: #f4f4fd;
   --footer-text-color: #f4f4fd;
+  --portfolio-btn-bg: #f4f4fd;
+  --portfolio-btn-text: #4d5ae5;
 }
 
 body {
@@ -29,7 +31,7 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: calc(21 / 18);
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -107,6 +109,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 /* team */
 .team {
@@ -148,3 +151,33 @@ body {
   letter-spacing: 0.02em;
 }
 /*-------Portfolio------*/
+.btn-link {
+  color: var(--logo-text-color);
+  text-align: center;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: var(--portfolio-btn-bg);
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: var(--light-text-color);
+  background-color: var(--accent-text-color);
+}
+.cards-subtitle {
+  color: var(--secondary-text-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+}
+.cards-text {
+  color: var(--primary-text-color);
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+}
